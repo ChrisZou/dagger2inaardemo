@@ -1,5 +1,5 @@
 # dagger2inaardemo
-This is a demo of using dagger2 in an aar which throws java.lang.NoClassDefFoundError, see dagger2 issue 283.  
+This is a demo of using dagger2 in an aar which throws java.lang.NoClassDefFoundError, see dagger2 [issue 283](https://github.com/google/dagger/issues/283).  
 The `dagger2inaarlib` module is an Android library module which uses dagger2 for DI. And the `app` module is an Android application module which comsumes the `dagger2inaarlib` in an `aar` way: `compile 'com.chriszou:dagger2inaarlib:1.0@aar'`  
 
 Usage:  
