@@ -1,0 +1,4 @@
+<resources>
+    <string name="a_demo">dagger2 in an aar</string>
+    <string name="app_name">dagger2inaarlib</string>
+</resources>
