@@ -10,6 +10,19 @@ buildscript {
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'maven'
+
+group = 'com.chriszou'
+version = '1.0'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://${System.getProperty("user.home")}/.m2/repository")
+        }
+    }
+}
+
 
 android {
     compileSdkVersion 23
